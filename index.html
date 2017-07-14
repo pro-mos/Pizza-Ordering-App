@@ -5,18 +5,18 @@
   <meta charset='utf-8'>
   <meta name='viewport' content='width=device-width, initial-scale=1'>
   <title>Pizza</title>
-  
+
   <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
   <link rel='stylesheet' href='css/bootstrap.css'>
   <link rel='stylesheet' href='css/style.css'>
 </head>
 
-<body>
+<body dir="rtl">
   <nav class='navbar navbar-toggleable-md navbar-inverse bg-primary'>
-    <button class='navbar-toggler navbar-toggler-right' data-toggle='collapse' data-target='#nav-list' aria-expanded='false'>
+    <a href='#' class='navbar-brand'><i class="fa fa-pie-chart"></i> بيتزا</a>
+    <button class='navbar-toggler navbar-toggler-left' data-toggle='collapse' data-target='#nav-list' aria-expanded='false'>
       <span class="navbar-toggler-icon"></span>
     </button>
-    <a href='#' class='navbar-brand'><i class="fa fa-pie-chart"></i> بيتزا</a>
 
     <div id='nav-list' class="navbar-collapse collapse">
       <ul class="navbar-nav mr-auto">
@@ -28,27 +28,27 @@
     </div>
   </nav>
   
-  <div class="container-fluid">
-   <div class="row">
-     <header class="col-md-12" style="background-color: #111; color: #f8f8f8">
-       <h1 class="text-center">اطلب بيتزا على الطاير!<br>والدفع عند الاستلام</h1>
-       <h4 class="text-center text-muted">* التوصيل في حلمية الزيتون فقط</h4>
-       
-       <div class="jumbotron col-lg-6 offset-lg-3" style="background-color: tomato">
-         <div class="row">
-           <div class="col-md-6">
-             <h2>بيتزا الأسبوع</h2>
-             <h3>سوبر سوبريم</h3>
-           </div>
-           <div class="col-md-6">
-             <img src="img/pizza.jpg" alt="Featured Pizza">
-           </div>
-         </div>
-       </div>
-     </header>
-   </div>
-  </div>
-  
+  <header class="container-fluid bg-inverse">
+    <div class="text-center">
+      <h1>اطلب بيتزا على الطاير!<br>والدفع عند الاستلام</h1>
+      <h6 class="text-muted">* التوصيل في حلمية الزيتون فقط</h6>
+    </div>
+    
+    <div class="row">
+      <div class="jumbotron col-lg-6 offset-lg-3" style="background-color: tomato">
+        <div class="row">
+          <div class="col-md-6">
+            <h2>بيتزا الأسبوع</h2>
+            <h3>سوبر سوبريم</h3>
+          </div>
+          <div class="col-md-6">
+            <img src="img/pizza.jpg" alt="Featured Pizza">
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
   <script src="js/bootstrap.min.js"></script>
 </body>
 
