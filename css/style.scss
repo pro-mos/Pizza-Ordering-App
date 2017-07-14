@@ -1,10 +1,20 @@
 
 
+::selection {background-color: slateblue}
+
 body {
   font-family: Cairo;
 }
 
 header {
+  padding-top: 4rem;
   background-color: #111;
   color: #f8f8f8;
+  h1 {
+    font-weight: 200;
+  }
+  .featured-pizza {
+    padding: 1rem 2rem;
+    margin-top: 1rem;
+  }
 }
