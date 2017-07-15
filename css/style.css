@@ -7,14 +7,18 @@ body {
   font-family: Cairo; }
 
 /* line 9, M:/Web/pizza/css/style.scss */
+.slim {
+  font-weight: 200; }
+
+/* line 13, M:/Web/pizza/css/style.scss */
 header {
   padding-top: 4rem;
   background-color: #111;
   color: #f8f8f8; }
-  /* line 13, M:/Web/pizza/css/style.scss */
+  /* line 17, M:/Web/pizza/css/style.scss */
   header h1 {
     font-weight: 200; }
-  /* line 16, M:/Web/pizza/css/style.scss */
+  /* line 20, M:/Web/pizza/css/style.scss */
   header .featured-pizza {
     padding: 1rem 2rem;
     margin-top: 1rem; }
